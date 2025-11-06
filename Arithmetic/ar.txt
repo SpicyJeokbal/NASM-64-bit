@@ -1,0 +1,11 @@
+
+ASM Arithmetic
+add
+sub
+imul    signed multiply
+idiv    signed divide
+inc
+dec
+
+
+ 
