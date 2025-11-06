@@ -1,0 +1,6 @@
+
+in NASM, a variable is just a label for a piece of memory.
+Unlike C++ where you code "int x{5};" and the compiler handles everything.
+In NASM, you must decide:
+    - how many bytes to reserve.
+    - and what goes inside them
