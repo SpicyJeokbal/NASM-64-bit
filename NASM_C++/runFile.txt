@@ -1,0 +1,5 @@
+
+
+nasm -f AsmName.asm -o AsmName.obj
+g++ CppName.cpp AsmName.obj -o CppName.exe
+CppName.exe
