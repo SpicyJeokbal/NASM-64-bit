@@ -17,3 +17,14 @@ gcc fileName.obj -o fileName.exe
 fileName.exe
 pause
 ```
+
+link files in library
+```bash
+@echo off
+nasm -f win64 Library.asm -o Library.obj
+nasm -f win64 Main.asm -o Main.obj
+gcc Main.obj Library.obj -o whatever.exe
+whatever.exe
+pause
+
+```
